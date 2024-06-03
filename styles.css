@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #555;
+}
+
+.featured-ngos {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.featured-ngos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ngo-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ngo-item {
+    background-color: #eaeaea;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.ngo-item:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.footer-links, .social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links a, .social-media a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover, .social-media a:hover {
+    text-decoration: underline;
+}
